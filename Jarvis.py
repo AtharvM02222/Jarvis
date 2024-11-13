@@ -221,4 +221,3 @@ while True:
 
     else:
         speak("Jarvis : Sorry, I'm not sure how to respond to that.\n")
-    
