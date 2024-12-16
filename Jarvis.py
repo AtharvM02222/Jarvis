@@ -11,6 +11,7 @@ import objc
 import Speech
 from datetime import datetime
 
+
 #nltk.download("punkt")
 
 def speak(text):
