@@ -16,7 +16,7 @@ from datetime import datetime
 
 def speak(text):
     engine = pyttsx3.init('dummy')
-    voices = engine.getProperty('voices')
+    voices = engine.getProperty('voices') 
     Id = r'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_DAVID_11.0'
     engine.setProperty('voice', Id)
     print("")
