@@ -26,7 +26,7 @@ def speak(text):
     engine.runAndWait()
 
 def speechrecognition():
-    r = sr.Recognizer()
+    r = sr.Recognizer() 
     with sr.Microphone() as source:
         print("Listening.....")
         r.pause_threshold = 1
