@@ -18,7 +18,7 @@ driver = webdriver.Chrome(service=service, options=chrome_options)
 driver.maximize_window()
 driver.get(url=url)
 sleep(500)
-
+ 
 def Popupremover():
     Xpath = '/html/body/div[3]/div[3]/div/section/button'
     driver.find_element(by=By.XPATH,value=Xpath).click()
