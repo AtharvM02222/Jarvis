@@ -12,7 +12,7 @@ import Speech
 from datetime import datetime
 
 
-#nltk.download("punkt")
+#nltk.download("punkt")   
 
 def speak(text):
     engine = pyttsx3.init('dummy')
